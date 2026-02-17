@@ -19,6 +19,7 @@ const router = createRouter({
       component: HomeView,
       meta: { require: true },
     },
+    
     {
       path: "/login",
       name: "login",
