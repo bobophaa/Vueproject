@@ -9,7 +9,8 @@ import EditArticle from "@/views/EditArticle.vue";
 import Detailpage from "@/views/Detailpage.vue";
 import CategoryView from "@/views/CategoryView.vue";
 import ProfileView from "@/views/ProfileView.vue";
-import Category from "@/views/category.vue";
+// import Category from "@/views/category.vue";
+import Category from "@/views/Category.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -19,7 +20,7 @@ const router = createRouter({
       component: HomeView,
       meta: { require: true },
     },
-    
+
     {
       path: "/login",
       name: "login",
@@ -51,20 +52,19 @@ const router = createRouter({
       path: "/pf",
       name: "Profile",
       component: ProfileView,
-    }, 
-    
+    },
+
     // {
     //   path: "/category",
     //   name: "Category",
     //   component: CategoryView,
     // },
-    
-    
+
     {
       path: "/category",
       name: "Category",
       component: Category,
-    }, 
+    },
   ],
 });
 
