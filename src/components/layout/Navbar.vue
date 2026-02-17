@@ -23,7 +23,7 @@ const handleLogout = async () => {
           class=" text-white rounded-3 p-2 me-3 d-flex align-items-center justify-content-center" style=" width: 40px; height: 40px"
         
         >
-          <i class="bi bi-journal-text fs-2 " style="color: orange;"></i>
+          <i class="bi bi-journal-text fs-2 " style="color: orangered;"></i>
         </div>
         
         <span
@@ -121,7 +121,7 @@ const handleLogout = async () => {
 <style scoped>
 .navbar {
   backdrop-filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.417) !important;
+  background-color: rgba(0, 0, 0, 0.611) !important;
 }
 .dropdown-toggle::after {
   display: none;
